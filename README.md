@@ -111,5 +111,7 @@ Combine sales data with inventory data
 👤 Author
 
 Vibha Rana
+
 Aspiring Data Analyst
+
 Skills: SQL | Data Analytics | Data Visualization
