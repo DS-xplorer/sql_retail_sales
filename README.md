@@ -50,14 +50,6 @@ Conditional logic using CASE WHEN
 Date-based analysis
 Business-oriented query writing
 
-📁 Project Structure
-sql_retail_sales/
-│
-├── retail_sales_dataset.csv      # Retail sales dataset
-├── sql_query_P1.sql              # Basic SQL analysis
-├── advance_analysis.sql          # Advanced business queries
-└── README.md                     # Project documentation
-
 📊 Key Insights
 
 (Insights may vary based on query execution)
