@@ -10,17 +10,29 @@ This project is created as a portfolio project for Data Analyst roles.
 
 The dataset contains retail transaction records with the following details:
 
-Column Name	Description
-transaction_id	Unique ID for each sale
-sale_date	Date of transaction
-sale_time	Time of transaction
-customer_id	Unique customer identifier
-gender	Customer gender
-age	Customer age
-category	Product category
-quantiy	Number of units sold
-price_per_unit	Price of one unit
-total_sale	Total revenue of the transaction
+Column Name
+
+transaction_id -	Unique ID for each sale
+
+sale_date -	Date of transaction
+
+sale_time -	Time of transaction
+
+
+customer_id -	Unique customer identifier
+
+gender -	Customer gender
+
+age -	Customer age
+
+
+category -	Product category
+
+quantiy -	Number of units sold
+
+price_per_unit -	Price of one unit
+
+total_sale -	Total revenue of the transaction
 
 Note: The column quantiy represents quantity (dataset typo).
 
