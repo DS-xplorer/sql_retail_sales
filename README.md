@@ -1,116 +1,103 @@
 🛍️ Retail Sales Analysis Using SQL
+📌 Project Description
 
-📌 Project Overview
+This project focuses on analyzing retail sales data using SQL to understand sales trends, customer behavior, and product performance.
+The analysis is performed using structured SQL queries to answer common business questions faced by retail companies.
 
-This project focuses on analyzing retail sales data using SQL to uncover meaningful business insights.
-The goal is to demonstrate practical SQL skills used by data analysts to answer real-world business questions related to sales performance, customer behavior, and product trends.
+This project is created as a portfolio project for Data Analyst roles.
 
-This project is designed as a portfolio project for Data Analyst roles.
+📂 Dataset Information
 
-📂 Dataset Description
+The dataset contains retail transaction records with the following details:
 
-The dataset contains transactional retail sales data with information such as:
+Column Name	Description
+transaction_id	Unique ID for each sale
+sale_date	Date of transaction
+sale_time	Time of transaction
+customer_id	Unique customer identifier
+gender	Customer gender
+age	Customer age
+category	Product category
+quantiy	Number of units sold
+price_per_unit	Price of one unit
+total_sale	Total revenue of the transaction
 
-Column	
+Note: The column quantiy represents quantity (dataset typo).
 
-Transaction ID - Unique identifier for each transaction
+🎯 Objectives of Analysis
 
-Order Date -	Date of purchase
+The main objectives of this project are:
 
-Product -	Product name or category
+Analyze overall sales performance
 
-Quantity -	Number of units sold
+Identify top-selling product categories
 
-Sale -s	Total sales value
+Find high-value customers
 
-Customer ID -	Unique customer identifier
+Study sales distribution by age and gender
 
-Gender -	Customer gender
+Understand sales behavior by time of day (shift)
 
-Age -	Customer age
+🛠 Tools & Technologies Used
 
+SQL (for data analysis)
 
-Region -	Sales region
+Relational Database (MySQL / PostgreSQL / SQLite)
 
-Shift -	Time of purchase (Morning / Evening)
+CSV Dataset
 
-The dataset is stored in CSV format and analyzed using SQL queries.
+GitHub (project hosting)
 
-🛠 Tools & Technologies
+🧠 SQL Concepts Used
 
-SQL (MySQL / PostgreSQL / SQLite)
+The project demonstrates practical usage of:
 
-Relational Database
+SELECT, WHERE
 
-Git & GitHub
+Aggregate functions (SUM, COUNT, AVG)
 
-🎯 Business Objectives
+GROUP BY and HAVING
 
-The analysis aims to answer the following business-driven questions:
+ORDER BY
 
-What is the overall sales performance?
+Date and time analysis
 
-Which products and categories generate the highest revenue?
-
-Who are the top-spending customers?
-
-How do sales vary by region and time (shift)?
-
-What are the customer purchasing patterns?
-
-These objectives reflect real analytics tasks commonly performed in retail and consulting environments.
-
-🧠 SQL Concepts & Skills Used
-
-This project demonstrates strong command over core SQL concepts, including:
-
-Data filtering using WHERE
-
-Aggregations using SUM, COUNT, AVG
-
-Grouped analysis using GROUP BY and HAVING
-
-Sorting results using ORDER BY
-
-
-Conditional logic using CASE WHEN
-
-Date-based analysis
-
-Business-oriented query writing
+Business-focused query logic
 
 📊 Key Insights
 
-(Insights may vary based on query execution)
+Some product categories generate higher sales than others
 
-Certain product categories contribute significantly to total sales.
+Sales volume changes based on time of day
 
-Sales volume fluctuates based on time of day (shift).
+Certain customer age groups contribute more to revenue
 
-Specific regions consistently outperform others.
-
-A small group of customers contributes a large portion of revenue.
-
-These insights help businesses optimize product strategy, customer targeting, and regional planning.
+A small group of customers generates a large share of total sales
 
 📈 Learning Outcomes
 
-Through this project, I gained hands-on experience in
+This project helped in developing:
 
-Writing business-focused SQL queries
+Strong SQL querying skills
 
-Analyzing transactional sales data
+Ability to analyze real-world transactional data
 
-Extracting actionable insights from raw datasets
+Business understanding through data
 
-Structuring SQL projects for professional portfolios
+Experience in creating portfolio-ready SQL projects
 
-🚀 Future Scope
+🚀 Future Improvements
 
-This project can be extended by:
-Creating dashboards in Tableau / Power BI
-Performing deeper analysis using Python
+Create dashboards using Tableau or Power BI
 
-Adding customer segmentation models
+Perform advanced analysis using Python
 
-Integrating multiple datasets (inventory, returns, logistics)
+Add customer segmentation
+
+Combine sales data with inventory data
+
+👤 Author
+
+Vibha Rana
+Aspiring Data Analyst
+Skills: SQL | Data Analytics | Data Visualization
